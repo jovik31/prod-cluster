@@ -22,8 +22,3 @@ spec:
         - image: jovik31/go-backend:v37
           name: go-backend
           resources: {}
-containers:
-  image: jovik31/go-backend:v33
-template:
-  containers:
-    image: jovik31/go-backend:v35
