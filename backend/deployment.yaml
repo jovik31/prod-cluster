@@ -26,4 +26,4 @@ containers:
   image: jovik31/go-backend:v33
 template:
   containers:
-    image: jovik31/go-backend:v34
+    image: jovik31/go-backend:v35
