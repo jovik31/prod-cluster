@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: backend
+  creationTimestamp: null
+  labels:
+    app: go-backend
+  name: go-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: go-backend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: go-backend
+    spec:
+      containers:
+      - image: jovik31/go-backend:v15
+        name: go-backend
+        resources: {}
