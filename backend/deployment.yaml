@@ -19,7 +19,7 @@ spec:
         app: go-backend
     spec:
       containers:
-        - image: jovik31/go-backend:v15
+        - image: jovik31/go-backend:v36
           name: go-backend
           resources: {}
 containers:
